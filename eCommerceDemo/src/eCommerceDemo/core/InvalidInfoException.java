@@ -30,10 +30,7 @@ public class InvalidInfoException extends Exception {
 			return("Gecersiz eposta adresi.");
 		case 7:
 			return("Bu eposta adresi sisteme kayitli.");
-		case 8:
-			return("Eposta veya sifre hatali.");
-		case 9:
-			return("Isaretli alanlarin doldurulmasi zorunludur.");
+		
 		
 		}
 		return("");
